@@ -1,0 +1,234 @@
+.header{
+    background-color:rgb(12, 4, 4);
+    width: 195vh;
+    display: flex;
+    padding-top: 5px;
+    padding-left: 50px;
+    padding-right: 20px;
+    align-items:center;
+    padding-bottom: 0;
+    font-family: "srift";
+    font-weight:400;
+    font-size: 17px;
+    position: fixed;
+    top:0;
+    z-index: 1;
+}
+
+body{
+    
+    margin:0;
+    background-image: url(1631660293_48-phonoteka-org-p-zadnii-fon-dota-krasivo-49.jpg);
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.nav-item{
+    text-decoration: none;
+    color:rgb(171, 121, 5);
+    margin-right: 25px;
+    transition: color 0.2s linear;
+    
+}
+
+.nav-item:hover{
+    color:rgb(160, 68, 247);
+}
+
+.number{
+    color:rgb(171, 121, 5);
+}
+
+.tolka{
+    margin-left:140vh;
+}
+
+@font-face {
+    font-family: "srift";  
+    src: url("Intro.otf") format("truetype"); 
+    font-style: normal; 
+    font-weight: 300;
+}
+
+.osnova{
+    font-family: "srift";
+    z-index: 2;
+    
+}
+
+.img{
+    display: block;
+    
+    margin-left: 12%; 
+}
+
+.omg{
+width: 150vh;
+height: 70vh;
+}
+
+.text{
+    color:rgb(255, 255, 255);
+    margin-left: 12%;
+
+}
+
+.cont{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10vh;
+    
+}
+
+.img1, .img2, .img3, .img4{
+    box-shadow: 10px 10px 1px rgb(234, 175, 39), -10px -10px 1px rgb(160, 68, 247);
+    height: 37vh;
+    width: 37vh;
+}
+
+.img3, .img4{
+    margin-bottom: 5vh;
+}
+
+.footer{
+    display:flex;
+    align-items: center;
+    font-family: "srift";
+    font-size: 17px;
+    font-weight: 400;
+    color:rgb(234, 175, 39);
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    background-color:  black;
+    position: absolute;
+}
+
+.nado{
+    margin-left: 5px;
+    margin-right: 115vh;
+    
+    transition: color 0.2s linear;
+}
+
+.nado:hover{
+    color:rgb(160, 68, 247);
+    cursor:pointer;
+}
+
+.sil1{
+    width: 6vh;
+    height: 4vh;
+    margin-right: 1vh;
+}
+
+.sil2{
+    width: 5vh;
+    height: 4vh;
+}
+
+@media (min-width: 300px) and (max-width: 400px) {
+    .omg{
+        width: 45vh;
+        height: 40vh;
+    }
+    
+    .tolka{
+        margin-left: 2vh;
+    }
+    .nado{
+        margin-right: 15vh;
+    }
+    .img1, .img2, .img3, .img4{
+        height: 20vh;
+        width: 20vh
+    }
+    .header{
+        padding-left: 10px;
+    }
+   
+}
+
+@media (min-width: 401px) and (max-width:500px){
+    .omg{
+        width: 42vh;
+        height: 30vh;
+    }
+    .tolka{
+        margin-left: 12vh;
+    }
+    .nado{
+        margin-right: 20vh;
+
+    }
+    .img1, .img2, .img3, .img4{
+        height: 17vh;
+        width: 17vh
+    }
+    .header{
+        padding-left: 10px;
+    }
+}
+
+@media (min-width:500px) and (max-width:800px){
+    .omg{
+        width: 50vh;
+        height: 30vh;
+    }
+    .tolka{
+        margin-left: 28vh;
+    }
+    .nado{
+        margin-right: 20vh;
+
+    }
+    .img1, .img2, .img3, .img4{
+        height: 17vh;
+        width: 17vh
+    }
+    .header{
+        padding-left: 10px;
+    }
+}
+
+@media (min-width:801px) and (max-width:1024px){
+    .omg{
+        width: 55vh;
+        height: 30vh;
+    }
+    .tolka{
+        margin-left: 35vh;
+    }
+    .nado{
+        margin-right: 20vh;
+
+    }
+    .img1, .img2, .img3, .img4{
+        height: 17vh;
+        width: 17vh
+    }
+    .header{
+        padding-left: 10px;
+    }
+}
+
+@media (min-width:1025px) and (max-width:1280px){
+    .omg{
+        width: 125vh;
+        height: 50vh;
+    }
+    .tolka{
+        margin-left: 110vh;
+    }
+    .nado{
+        margin-right: 75vh;
+
+    }
+    .img1, .img2, .img3, .img4{
+        height: 50vh;
+        width: 50vh
+    }
+    
+}
